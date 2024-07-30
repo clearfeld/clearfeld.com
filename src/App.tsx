@@ -9,7 +9,7 @@ import {
   Outlet,
 } from "react-router-dom";
 
-import Navbar from "./commons/navbar";
+// import Navbar from "./commons/navbar";
 import Home from "./pages/home";
 
 // import Sidebar from "./commons/sidebar";
