@@ -18,11 +18,11 @@ const styles = stylex.create({
   content: {
     // marginTop: "var(--navbar-size)",
     paddingTop: "var(--navbar-size)",
-    boxSizing: "border-box",
+    // boxSizing: "border-box",
     display: "flex",
-    flex: 1,
+    // flex: 1,
     // marginLeft: "var(--sidebar-size)",
-    height: "100%",
+    // height: "100%",
   },
 
   sidebar_spacing: {
