@@ -49,10 +49,12 @@ export default function Home() {
 				<Link href="https://x.com/clearfeld">twitter</Link>
 				<span>/</span>
 				<Link href="https://github.com/clearfeld">github</Link>
-                		<span>/</span>
+				<span>/</span>
 				<Link href="https://music.clearfeld.com">music</Link>
 				<span>/</span>
 				<Link href="https://tools.clearfeld.com">tools</Link>
+				<span>/</span>
+				<Link href="https://games.clearfeld.com">games</Link>
 			</span>
 
 			<br />
@@ -135,7 +137,7 @@ export default function Home() {
 						src={
 							"https://pbs.twimg.com/media/GcxyyOPWYAAL-na?format=jpg&name=large"
 						}
-                        {...stylex.props(styles.img)}
+						{...stylex.props(styles.img)}
 					/>
 				</div>
 			</div>
