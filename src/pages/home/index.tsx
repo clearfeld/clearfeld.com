@@ -49,8 +49,10 @@ export default function Home() {
 				<Link href="https://x.com/clearfeld">twitter</Link>
 				<span>/</span>
 				<Link href="https://github.com/clearfeld">github</Link>
-                <span>/</span>
+                		<span>/</span>
 				<Link href="https://music.clearfeld.com">music</Link>
+				<span>/</span>
+				<Link href="https://tools.clearfeld.com">tools</Link>
 			</span>
 
 			<br />
