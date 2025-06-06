@@ -1,6 +1,10 @@
 import * as stylex from "@stylexjs/stylex";
 import { Link } from "../../commons/link";
 
+import CCImg from "../../assets/cc.png";
+// import ODSImg from "../../assets/ourdigitalsquare.png";
+import DCImg from "../../assets/dataconstruct.png";
+
 const styles = stylex.create({
 	base: {
 		display: "flex",
@@ -64,6 +68,38 @@ export default function Home() {
 			<br />
 
 			<div {...stylex.props(styles.meta_group_wrap)}>
+								<div {...stylex.props(styles.group_wrap)}>
+					<Link href="https://www.ourdigitalsquare.com">
+						<h3>OurDigitalSquare - Current Startup</h3>
+					</Link>
+
+					<p>A mixed marketplace and platform for content creators, businesses, and digital products.</p>
+
+					{/* biome-ignore lint/a11y/useAltText: <explanation> */}
+					{/* <img
+						src={ODSImg}
+						{...stylex.props(styles.img)}
+					/> */}
+				</div>
+
+				<br />
+
+				<div {...stylex.props(styles.group_wrap)}>
+					<Link href="#">
+						<h3>CenterControl - No Longer Online</h3>
+					</Link>
+
+					<p>A project management SAAS.</p>
+
+					{/* biome-ignore lint/a11y/useAltText: <explanation> */}
+					<img
+						src={CCImg}
+						{...stylex.props(styles.img)}
+					/>
+				</div>
+
+				<br />
+
 				<div {...stylex.props(styles.group_wrap)}>
 					<Link href="https://github.com/clearfeld/construct">
 						<h3>Construct</h3>
@@ -103,6 +139,13 @@ export default function Home() {
 							Library (Rust and WASM support)
 						</Link>
 					</span>
+
+					<br />
+
+					<img
+						src={DCImg}
+						{...stylex.props(styles.img)}
+					/>
 				</div>
 
 				<br />
